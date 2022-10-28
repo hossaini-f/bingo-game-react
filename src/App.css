@@ -1,0 +1,70 @@
+html,body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 40px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px;
+}
+h3{
+  font-size: 3vw;
+  margin: 0px;
+  text-transform: uppercase;
+}
+#free-slot{
+  pointer-events: none;
+  background-image: linear-gradient(to top, #43e97b 0%, #38f9d7 100%);
+}
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(5, auto);
+  padding: 20px 20px;
+}
+.slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  font-weight: bold;
+  font-size: 12px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 4px 10px 15px  #ddd;
+}
+.choosen {
+  background-image: linear-gradient(to top, #43e97b 0%, #38f9d7 100%);
+}
+.state{
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.state > div > label{
+  color: #000;
+  font-weight: 700;
+}
+.state > div > .resetBtn{
+  color: #f5f7f9;
+  font-weight: 700;
+  outline: none;
+  padding: 5px 30px;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  cursor: pointer;
+}
